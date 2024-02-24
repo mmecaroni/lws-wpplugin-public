@@ -3,7 +3,7 @@
 Plugin Name: LWS WpPlugin Public
 Plugin URI: http://www.liquidstudiodev.com/wp/lws-wpplugin-public
 Description: Just a testing public plugin to see how to update it from github
-Version: 0.0.3
+Version: 0.0.4
 Author: Mario Mecaroni
 Author URI: http://www.liquidstudiogroup.com/mario-mecaroni
 License: MIT
@@ -16,7 +16,7 @@ GitHub Branch: master
 if (!defined('ABSPATH')) { exit; }
 /****** Display Version */
 add_action("wp_footer", function() {
-	echo "LWS WPPlugin Public Version: 0.0.3";
+	echo "LWS WPPlugin Public Version: 0.0.4";
 });
 /****** Constant for Plugin Path */
 define('LWS_WPPLUGIN_PUBLIC_FILE_PATH', plugin_dir_path(__FILE__));
