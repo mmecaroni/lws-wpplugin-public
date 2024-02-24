@@ -1,21 +1,154 @@
-# the composer package lock file and install directory
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# /composer.lock
-/fuel/vendor
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
 
-# the fuelphp document
-/docs/
+# Laravel specific
+/vendor/
+/node_modules/
+/bootstrap/cache/
+/storage/*.key
+/public/storage
+/public/hot
+/storage/framework/
+/storage/logs/
+/storage/debugbar/
+/storage/app/public/
+!storage/.gitignore
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/public/css/app.css
+/public/js/app.js
+/public/mix-manifest.json
+/storage/framework/views/
+/phpunit.xml
+/.phpunit.result.cache
 
-# you may install these packages with `oil package`.
-# http://fuelphp.com/docs/packages/oil/package.html
-# /fuel/packages/auth/
-# /fuel/packages/email/
-# /fuel/packages/oil/
-# /fuel/packages/orm/
-# /fuel/packages/parser/
+# Blade & Twig templates
+/resources/views/**/*.blade.php
+/resources/views/**/*.twig
 
-# dynamically generated files
-/fuel/app/logs/*/*/*
-/fuel/app/cache/*/*
-/fuel/app/config/crypt.php
+# Compiled Blade & Twig cache
+/bootstrap/cache/*.php
+/storage/framework/views/*.php
+/twig/cache/
+
+# WordPress specific
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/cache/
+/wp-content/themes/*.zip
+/wp-content/plugins/*.zip
+/wp-config.php
+/.htaccess
+/sitemap.xml
+/sitemap.xml.gz
+
+# WordPress block development
+/wp-content/plugins/my-custom-blocks/node_modules/
+/wp-content/plugins/my-custom-blocks/build/
+/wp-content/themes/my-theme/assets/js/blocks/build/
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+*.sublime*
+*.vscode*
+*.atom/
+*.jedit/
+*.eslintrc
+*.tern-project
+*.vim
+*.tmproj
+.tsserverlog
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# NPM & Composer
+/package-lock.json
+/composer.lock
+/composer.phar
+/yarn.lock
+/pnpm-lock.yaml
+.npm
+/node_modules/
+/vendor/
+.php-version
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+/dist
+/build/
+/public/build/
+
+# Misc
+/.vagrant/
+Homestead.yaml
+Homestead.json
+/.env.backup
+/phpunit.xml
+/phpunit.result.cache
+.cache
+.parcel-cache
+.next
+.out
+.nuxt
+dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.pnp.*
+.yarn-integrity
+.cache/
+.parcel-cache
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
